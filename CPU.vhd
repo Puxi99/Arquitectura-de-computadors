@@ -145,7 +145,7 @@ signal memDada_RD-4Mux2x1_A: std_logic_vector(31 downto 0);  --32
 signal ALU32_Resultat-3Mux2x1_B: std_logic_vector(31 downto 0);  --33
 signal ALU32_Resultat-4Mux2x1_B: std_logic_vector(31 downto 0);  --34
 signal UnitatControl_MemtoReg-4Mux2x1_sel: std_logic;  --35
-signal sum4_Sortida-0Mux2x1_A: std_logic_vector(31 downto 0);  --36
-signal sum4_Sortida-3Mux2x1_A: std_logic_vector(32 downto 0);  --37
+signal sum4_Sortida-1Mux2x1_A: std_logic_vector(31 downto 0);  --36
+signal sum4_Sortida-3Mux2x1_A: std_logic_vector(31 downto 0);  --37
 -- falta el sel del multiplexor 3!!!
 
