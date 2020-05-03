@@ -13,7 +13,7 @@ entity UnitatControl is
         MemRead :    out STD_LOGIC;
         MemWrite :   out STD_LOGIC;
         PCWriteCond :out STD_LOGIC;
-        ALUOp : 		out STD_LOGIC_VECTOR (1 downto 0);
+        ALUOp : 	out STD_LOGIC_VECTOR (1 downto 0);
         RegWrite : 	out STD_LOGIC;
         IRWrite : 	out STD_LOGIC;
         ALUSrcA : 	out STD_LOGIC;

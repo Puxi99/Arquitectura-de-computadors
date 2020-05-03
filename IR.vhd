@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity IR is
     port(
-        clock: in std_logic;
-		  Escr: in std_logic;
+        clk: in std_logic;
+		Escr: in std_logic;
         D: in std_logic_vector(31 downto 0);
         Q: out std_logic_vector(31 downto 0)
     );
