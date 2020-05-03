@@ -100,7 +100,7 @@ architecture arch of CPU is
             MemRead :    out STD_LOGIC;
             MemWrite :   out STD_LOGIC;
             PCWriteCond :out STD_LOGIC;
-            ALUOp : 		out STD_LOGIC_VECTOR (1 downto 0);
+            ALUOp : 	out STD_LOGIC_VECTOR (1 downto 0);
             RegWrite : 	out STD_LOGIC;
             IRWrite : 	out STD_LOGIC;
             ALUSrcA : 	out STD_LOGIC;
@@ -128,9 +128,12 @@ signal UnitatControl_PCwrite-PC_Esc: std_logic;  --15
 signal UnitatControl_IRWrite-IR_Escr: std_logic;  --16
 signal UnitatControl_RegWrite-BR_EscReg: std_logic;  --17
 signal UnitatControl_RegDst-0Mux2x1_sel: std_logic;  --18
-signal extSig_sortida_2Mux2x1_B: std_logic_vector(31 downto 0);  --19
-signal BR_DadaL1-1Mux2x1_B: std_logic_vector(31 downto 0);  --20
-signal BR_DadaL2-2Mux2x1_A: std_logic_vector(31 downto 0);  --21
+signal extSig_sortida-Imm_Din:std_logic_vector(31 downto 0);  --38
+signal Imm_Dout-2Mux2x1_B: std_logic_vector(31 downto 0);  --19
+signal BR_DadaL1-A_Din: std_logic_vector(31 downto 0);  --39
+signal A_Dout-1Mux2x1_B: std_logic_vector(31 downto 0);  --20
+signal BR_DadaL2-B_Din: std_logic_vector(31 downto 0);  --40
+signal B_Dout-2Mux2x1_A: std_logic_vector(31 downto 0);  --21
 signal BR_DadaL2-memDada_WD: std_logic_vector(31 downto 0 );  --22
 signal UnitatControl_AluSrcB-2Mux2x1_sel: std_logic;  --23
 signal UnitatControl_AluSrcA-1Mux2x1_sel: std_logic;  --24
@@ -138,14 +141,21 @@ signal 1Mux2x1_O-ALU32_Op1: std_logic_vector(31 downto 0);  --25
 signal 2Mux2x1_O-ALU32_Op2: std_logic_vector(31 downto 0);  --26
 signal UnitatControl_ALUOp-ControlALU_ALUOp: std_logic_vector(1 downto 0);  --27
 signal ControlALU_Control_ALU-ALU32_Control_ALU: std_logic_vector(2 downto 0);  --28
-signal ALU32_Resultat-memDada_Add: std_logic_vector(7 downto 0);  --29
+signal ALU32_Resultat-ALUOut_Din:std_logic_vector(31 downto 0);  --45
+signal ALUOut_Dout-memDada_Add: std_logic_vector(7 downto 0);  --29(Agafa els 7downto0 de aluout)
 signal UnitatControl_MemRead-memDada_MemRead: std_logic;  --30
 signal UnitatControl_MemWrite-memDada_MemWrite: std_logic;  --31
-signal memDada_RD-4Mux2x1_A: std_logic_vector(31 downto 0);  --32
-signal ALU32_Resultat-3Mux2x1_B: std_logic_vector(31 downto 0);  --33
-signal ALU32_Resultat-4Mux2x1_B: std_logic_vector(31 downto 0);  --34
+signal memDada_RD-MDR_Din: std_logic_vector(31 downto 0);  --32
+signal MDR_Dout-4Mux2x1_A: std_logic_vector(31 downto 0);  --44
+signal ALUOut_Dout-3Mux2x1_B: std_logic_vector(31 downto 0);  --33
+signal ALUOut_Dout-4Mux2x1_B: std_logic_vector(31 downto 0);  --34
 signal UnitatControl_MemtoReg-4Mux2x1_sel: std_logic;  --35
-signal sum4_Sortida-1Mux2x1_A: std_logic_vector(31 downto 0);  --36
-signal sum4_Sortida-3Mux2x1_A: std_logic_vector(31 downto 0);  --37
--- falta el sel del multiplexor 3!!!
+signal sum4_Sortida-NPC_Din:std_logic_vector(31 downto 0);  --46
+signal NPC_Dout-1Mux2x1_A: std_logic_vector(31 downto 0);  --36
+signal NPC_Dout-3Mux2x1_A: std_logic_vector(31 downto 0);  --37
+signal ALU32_zero-SALT_Zero: std_logic;  --41
+signal UnitatControl_PCWriteCond-SALT_PCWriteCond: std_logic;  --42
+signal SALT_Sel-3Mux2x1_Sel: std_logic;  --43
+
+
 
