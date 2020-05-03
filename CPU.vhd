@@ -5,7 +5,7 @@ use ieee.std_logic_arith.all
 
 entity CPU is
     Port (
-        clock, reset: in std_logic);
+        clk, reset: in std_logic);
 end CPU;
 
 architecture arch of CPU is
@@ -41,6 +41,12 @@ architecture arch of CPU is
               DadaL2: out STD_LOGIC_VECTOR (31 downto 0));
     end component;
 
+    component SALT
+        port(
+            Zero: in std_logic;
+            PCWriteCond: in std_logic;
+            Sel: out std_logic);
+    end component;
         
         
     component extSig
@@ -49,14 +55,14 @@ architecture arch of CPU is
     end component;
 
     component IR
-        port(clock: in std_logic;
+        port(clk: in std_logic;
 		     Escr: in std_logic;
              D: in std_logic_vector(31 downto 0);
              Q: out std_logic_vector(31 downto 0));
     end component;
         
     component memDada
-        port(clock, MemRead, MemWrite: in std_logic;
+        port(clk, MemRead, MemWrite: in std_logic;
             Add: in std_logic_vector(7 downto 0);
             WD: in std_logic_vector(31 downto 0);
             RD: out std_logic_vector(31 downto 0));
@@ -132,7 +138,7 @@ signal extSig_sortida-Imm_Din:std_logic_vector(31 downto 0);  --38
 signal Imm_Dout-2Mux2x1_B: std_logic_vector(31 downto 0);  --19
 signal BR_DadaL1-A_Din: std_logic_vector(31 downto 0);  --39
 signal A_Dout-1Mux2x1_B: std_logic_vector(31 downto 0);  --20
-signal BR_DadaL2-B_Din: std_logic_vector(31 downto 0);  --40
+signal BR_DadaL2-B_Din: std_logic_vecotr(31 downto 0);  --40
 signal B_Dout-2Mux2x1_A: std_logic_vector(31 downto 0);  --21
 signal BR_DadaL2-memDada_WD: std_logic_vector(31 downto 0 );  --22
 signal UnitatControl_AluSrcB-2Mux2x1_sel: std_logic;  --23
@@ -158,4 +164,50 @@ signal UnitatControl_PCWriteCond-SALT_PCWriteCond: std_logic;  --42
 signal SALT_Sel-3Mux2x1_Sel: std_logic;  --43
 
 
+begin
 
+PC: PC port map(
+    PCin => 3Mux2x1_O-PC_PCin;  --1
+    PCout => PC_PCout-memInst_Add;  --2
+    PCout => PC_PCout-sum4_Entrada;  --3
+    PCWrite => UnitatControl_PCwrite-PC_Esc;  --15
+    reset => reset;
+    clk => clk);
+    
+memInst: memInst port map(
+    Add => PC_PCout-memInst_Add;  --2
+    RD => memInst_RD-IR_D);  --4
+    
+IR: IR port map(
+    clk => clk;
+    Escr =>UnitatControl_IRWrite-IR_Escr;  --16
+    D => memInst_RD-IR_D;  --4
+    Q => IR_Q-BR);  --5
+   
+mux_5bits: mux2x1_5bits port map(
+    sel => UnitatControl_RegDst-0Mux2x1_sel; --18
+    A => BR_20_16-0Mux2x1_A;  --8
+    B => BR_15_11-0Mux2x1_B;  --9
+    O => 0Mux2x1_O-BR_RegE);  --10
+
+BancRegistres: BancRegistres port map(
+    EscReg => UnitatControl_RegWrite-BR_EscReg;  --17
+    RegL1 => BR_25_21-RegL1;  --6
+    RegL2 =>  BR_20_16-RegL2;  --7
+    RegE =>   0Mux2x1_O-BR_RegE;  --10
+    DadaE =>  4Mux2x1_O-BR_DadaE;  --13
+    DadaL1=>BR_DadaL1-A_Din; --39
+    DadaL2=>BR_DadaL2-B_Din); --40
+
+extSig: extSig port map(
+    entrada => BR_15_0-extSig_entrada; --11
+    sortida => extSig_sortida-Imm_Din);  --38
+
+Imm: reg_32Bits port map(
+    clk => clk;
+    Din=> extSig_sortida-Imm_Din;  --38
+    Dout=> Imm_Dout-2Mux2x1_B);  --19
+        
+
+
+A:
