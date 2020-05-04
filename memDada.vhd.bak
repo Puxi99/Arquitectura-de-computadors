@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 
 entity memDada is
     port(
-        clk, MemRead, MemWrite: in std_logic;
+        clock, MemRead, MemWrite: in std_logic;
         Add: in std_logic_vector(7 downto 0);
         WD: in std_logic_vector(31 downto 0);
         RD: out std_logic_vector(31 downto 0)
@@ -87,9 +87,9 @@ signal addr: integer := -1;
 	 
 begin
 	addr <= to_integer(unsigned(Add));
-    process (clk) is
+    process (clock) is
     begin
-        if falling_edge(clk) then
+        if falling_edge(clock) then
             if MemWrite = '1' then
                 bank(addr)     <= WD(31 downto 24);
                 bank(addr + 1) <= WD(23 downto 16);

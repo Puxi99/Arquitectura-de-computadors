@@ -13,6 +13,5 @@ end SALT;
 
         
 architecture arch of SALT is
-begin
-    Sel<= NOT(Zero) AND  PCWriteCond;
+    Sel<= NOT(Zero) AND & PCWriteCond;
 end architecture;
