@@ -1,0 +1,662 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim
+Ealu32
+Z1 w1585342571
+Z2 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd
+Z7 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd
+l0
+L6
+V^07oncN1>:4Q0Kb42UCj60
+!s100 ;Ham<V_6W6bz_zWTDC?6`0
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1588597890
+!i10b 1
+Z10 !s108 1588597890.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd|
+Z12 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 5 alu32 0 22 ^07oncN1>:4Q0Kb42UCj60
+l20
+L15
+V`[<WmEeBo>SZ]KHI[77hK0
+!s100 6B^Y9Ra9>5aG]^EZ4LnIF3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ebancregistres
+Z15 w1588427717
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z17 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd
+Z18 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd
+l0
+L5
+VAC6QhcBJoSDcbgETZI4=D2
+!s100 <L>UIoo3K9nmC2O];MJ:?3
+R8
+31
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
+Z20 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R16
+R4
+R5
+DEx4 work 13 bancregistres 0 22 AC6QhcBJoSDcbgETZI4=D2
+l22
+L17
+VbSHOKD3k``JB`2<KEih`Q0
+!s100 e48l^Zl[kQH8JBc>oE4T?2
+R8
+31
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Econtrolalu
+Z21 w1585328048
+R2
+R3
+R4
+R5
+R0
+Z22 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
+Z23 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
+l0
+L6
+VQ>Ab7BM4^eNO7QAMd8Bom2
+!s100 C1]k?OVk@BOeoVPdb4bDn3
+R8
+31
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd|
+Z25 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd|
+!i113 1
+R13
+R14
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 10 controlalu 0 22 Q>Ab7BM4^eNO7QAMd8Bom2
+l13
+L12
+V`oBF1Q]0c`Kk?z1TMoHC:2
+!s100 AdkzK3bP@D4Na8:4iK<BQ0
+R8
+31
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Ecpu
+Z26 w1588596143
+R3
+R4
+R5
+R0
+Z27 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd
+Z28 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd
+l0
+L7
+VS8>miRNZdI?V1m4hM6kji1
+!s100 DBMHT5`B=^V@<FQa`]e6A0
+R8
+31
+Z29 !s110 1588597889
+!i10b 1
+Z30 !s108 1588597889.000000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd|
+Z32 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+R5
+DEx4 work 3 cpu 0 22 S8>miRNZdI?V1m4hM6kji1
+l168
+L12
+V;JMhAfn0lePJ`KoadlC0B2
+!s100 FaWQ`Io9>Dl86GieS6lZ@1
+R8
+31
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Ecpu_vhd_tst
+Z33 w1588597784
+R4
+R5
+R0
+Z34 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht
+Z35 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht
+l0
+L30
+Vl2VOWYRO1jX:OPYK1=`]33
+!s100 UzbN42@W]JheFLo12TT@Q2
+R8
+31
+R9
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht|
+Z37 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht|
+!i113 1
+R13
+R14
+Acpu_arch
+R4
+R5
+DEx4 work 11 cpu_vhd_tst 0 22 l2VOWYRO1jX:OPYK1=`]33
+l43
+L32
+Vm5igaL<Q>LJL?_KneTMgH3
+!s100 c58R4PD?1cM=kC6;<3kTH1
+R8
+31
+R9
+!i10b 1
+R10
+R36
+R37
+!i113 1
+R13
+R14
+Eextsig
+Z38 w1588427588
+R4
+R5
+R0
+Z39 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd
+Z40 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd
+l0
+L5
+VM`GbmM_d:A[GM]@aN8M4<0
+!s100 nbnACFd=^QLDiZo5VimTl1
+R8
+31
+R29
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd|
+Z42 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 6 extsig 0 22 M`GbmM_d:A[GM]@aN8M4<0
+l13
+L12
+VQ[GFK8]eZb]KbO7lCb]H43
+!s100 JhBLS;KizGNB_LiTZPkVZ3
+R8
+31
+R29
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R13
+R14
+Eir
+Z43 w1588583856
+R4
+R5
+R0
+Z44 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd
+Z45 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd
+l0
+L4
+V`[S0dQ547;Ph:9^Nz3=MG3
+!s100 `C:>Ma[XI;`_5C[h9jQUZ2
+R8
+31
+R29
+!i10b 1
+R30
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd|
+Z47 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 2 ir 0 22 `[S0dQ547;Ph:9^Nz3=MG3
+l15
+L13
+V9?kSd>LoaLfcaFP2=aA>Q2
+!s100 ?DH17mK?0G_][k50XdJ;X2
+R8
+31
+R29
+!i10b 1
+R30
+R46
+R47
+!i113 1
+R13
+R14
+Ememdada
+Z48 w1588584849
+R16
+R4
+R5
+R0
+Z49 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd
+Z50 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd
+l0
+L5
+V8>g^@=oD1MlzH3PBZEQoH2
+!s100 li=golRzaCRACA2J1`Jhk2
+R8
+31
+R29
+!i10b 1
+R30
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
+Z52 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R16
+R4
+R5
+DEx4 work 7 memdada 0 22 8>g^@=oD1MlzH3PBZEQoH2
+l88
+L14
+V4:LEK<@QF8<A2D4?aKUnA2
+!s100 4C0Im?:3SkSN;3>7WV23i2
+R8
+31
+R29
+!i10b 1
+R30
+R51
+R52
+!i113 1
+R13
+R14
+Ememinst
+R38
+R16
+R4
+R5
+R0
+Z53 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
+Z54 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
+l0
+L6
+V7KhAZk]7BoF=G4GL7W1C@3
+!s100 46CaL<;jM^zB0oO>U3=@l0
+R8
+31
+R29
+!i10b 1
+R30
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
+Z56 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R16
+R4
+R5
+DEx4 work 7 meminst 0 22 7KhAZk]7BoF=G4GL7W1C@3
+l83
+L12
+VbmDbF[7a9Hm:f`]EcleUf1
+!s100 AR[b<ICz6WNLk]f1ME?3o0
+R8
+31
+R29
+!i10b 1
+R30
+R55
+R56
+!i113 1
+R13
+R14
+Emux2x1_32bits
+R38
+R4
+R5
+R0
+Z57 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
+Z58 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
+l0
+L4
+V?E67D4Ci7dch9;:eiZGlO1
+!s100 KF0Sda]mLEJ8YjTmePeJ[1
+R8
+31
+R29
+!i10b 1
+Z59 !s108 1588597888.000000
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
+Z61 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
+!i113 1
+R13
+R14
+Aatrib
+R4
+R5
+DEx4 work 13 mux2x1_32bits 0 22 ?E67D4Ci7dch9;:eiZGlO1
+l13
+L12
+VIn8dzUlJ4K>XEfc2BWDhX2
+!s100 z9kcITz56GY=D`hj2`6GV0
+R8
+31
+R29
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R13
+R14
+Emux2x1_5bits
+R38
+R4
+R5
+R0
+Z62 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
+Z63 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
+l0
+L4
+V34<GmBnXC2H2aGIDFS@a[3
+!s100 9Q4b`DDb9:_:?Vo>ahRge1
+R8
+31
+R29
+!i10b 1
+R30
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
+Z65 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 12 mux2x1_5bits 0 22 34<GmBnXC2H2aGIDFS@a[3
+l13
+L12
+VK`ZiEOTJ8?DoM3adX`>Pb0
+!s100 DC>=McafGO5Ra5_^`S5bE2
+R8
+31
+R29
+!i10b 1
+R30
+R64
+R65
+!i113 1
+R13
+R14
+Epc
+Z66 w1588427726
+R4
+R5
+R0
+Z67 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
+Z68 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
+l0
+L4
+VmBn2?OE]1RWcf<8VgE38;0
+!s100 01gPOPiK5PZ38A0]:RPja0
+R8
+31
+Z69 !s110 1588597888
+!i10b 1
+R59
+Z70 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
+Z71 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 2 pc 0 22 mBn2?OE]1RWcf<8VgE38;0
+l13
+L11
+VX<L7Q9N9dMHGe8L02jKDP1
+!s100 G98]g;iKT6f`eg1idkV`m2
+R8
+31
+R69
+!i10b 1
+R59
+R70
+R71
+!i113 1
+R13
+R14
+Ereg_32bits
+R38
+Z72 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R5
+R0
+Z73 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
+Z74 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
+l0
+L6
+VTiG2117MoK<IOFbOA6[O;3
+!s100 >114oJlQV]gQ2f[caF07<1
+R8
+31
+R69
+!i10b 1
+R59
+Z75 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
+Z76 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R72
+R3
+R4
+R5
+DEx4 work 10 reg_32bits 0 22 TiG2117MoK<IOFbOA6[O;3
+l16
+L14
+Vc70S]Y9OGUAVi5G0FNiE31
+!s100 0c<_O5Za<z5H;a:4QEFAD1
+R8
+31
+R69
+!i10b 1
+R59
+R75
+R76
+!i113 1
+R13
+R14
+Esalt
+Z77 w1588583817
+R3
+R4
+R5
+R0
+Z78 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
+Z79 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
+l0
+L7
+VHk;860<V0hBEX2b8mZ47f1
+!s100 `0S_]0iZhKkiaila=NanJ1
+R8
+31
+R9
+!i10b 1
+R10
+Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
+Z81 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+R5
+DEx4 work 4 salt 0 22 Hk;860<V0hBEX2b8mZ47f1
+l16
+L15
+Vm;h0lV]CAIc6jRjaA8IKE0
+!s100 UQHYW?^5GkGLGdfaK@BZ=1
+R8
+31
+R9
+!i10b 1
+R10
+R80
+R81
+!i113 1
+R13
+R14
+Esum4
+R38
+R3
+R72
+R4
+R5
+R0
+Z82 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
+Z83 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
+l0
+L5
+V8lS6@`TSI<nEO[a<haV@d1
+!s100 S;`h]9m5[E<D_5YZOhNHj2
+R8
+31
+R69
+!i10b 1
+R59
+Z84 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
+Z85 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R72
+R4
+R5
+DEx4 work 4 sum4 0 22 8lS6@`TSI<nEO[a<haV@d1
+l14
+L12
+V;L914nZYWP;eOk71;4TL_2
+!s100 gf_]9<76aHW0^^ZD>bEWH1
+R8
+31
+R69
+!i10b 1
+R59
+R84
+R85
+!i113 1
+R13
+R14
+Eunitatcontrol
+Z86 w1588510840
+R16
+R4
+R5
+R0
+Z87 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
+Z88 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
+l0
+L5
+V36mhDfefOgaWJY08FXC>c0
+!s100 7RQ6JSG0P:OdnBDVf566T3
+R8
+31
+R69
+!i10b 1
+R59
+Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
+Z90 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R16
+R4
+R5
+DEx4 work 13 unitatcontrol 0 22 36mhDfefOgaWJY08FXC>c0
+l27
+L23
+VE>6=O0nRWj_kLRf4zG_Dj1
+!s100 ;Nc8h`UY:?geFZjlV3UY82
+R8
+31
+R69
+!i10b 1
+R59
+R89
+R90
+!i113 1
+R13
+R14
