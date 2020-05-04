@@ -1,4 +1,4 @@
-   
+ 
     library IEEE;
     use IEEE.std_logic_1164.all;
     use ieee.std_logic_arith.all
@@ -163,14 +163,13 @@
     
     PC: PC port map(
         PCin => 3Mux2x1_O-PC_PCin;  --1
-        PCout => PC_PCout-memInst_Add;  --2
-        PCout => PC_PCout-sum4_Entrada;  --3
+        PCout => PC_PCout-memInst_Add;  --2 i 3
         PCWrite => UnitatControl_PCwrite-PC_Esc;  --15
         reset => reset;
         clk => clk);
         
     memInst: memInst port map(
-        Add => PC_PCout-memInst_Add;  --2
+        Add => PC_PCout-memInst_Add;  --2 i 3
         RD => memInst_RD-IR_D);  --4
         
     IR: IR port map(
@@ -181,21 +180,21 @@
        
     mux0_5bits: mux2x1_5bits port map(
         sel => UnitatControl_RegDst-0Mux2x1_sel; --18
-        A => BR_20_16-0Mux2x1_A;  --8
-        B => BR_15_11-0Mux2x1_B;  --9
+        A => IR_Q-BR(20 downto 16);  --8
+        B => IR_Q-BR(15 downto 11);  --9
         O => 0Mux2x1_O-BR_RegE);  --10
     
     BancRegistres: BancRegistres port map(
         EscReg => UnitatControl_RegWrite-BR_EscReg;  --17
-        RegL1 => BR_25_21-RegL1;  --6
-        RegL2 =>  BR_20_16-RegL2;  --7
+        RegL1 => IR_Q-BR(25 downto 21);  --6
+        RegL2 =>  IR_Q-BR(20 downto 16);  --7
         RegE =>   0Mux2x1_O-BR_RegE;  --10
         DadaE =>  4Mux2x1_O-BR_DadaE;  --13
         DadaL1=>BR_DadaL1-A_Din; --39
         DadaL2=>BR_DadaL2-B_Din); --40
     
     extSig: extSig port map(
-        entrada => BR_15_0-extSig_entrada; --11
+        entrada => IR_Q-BR(15 downto 0); --11
         sortida => extSig_sortida-Imm_Din);  --38
     
     Imm: reg_32Bits port map(
@@ -217,7 +216,7 @@
     
     mux1: mux2x1_32bits port map(
         sel => UnitatControl_AluSrcA-1Mux2x1_sel;  --24
-        A => NPC_Dout-1Mux2x1_A;  --36
+        A => NPC_Dout-1Mux2x1_A;  --36 i 37
         B => A_Dout-1Mux2x1_B;  --20
         O => 1Mux2x1_O-ALU32_Op1);  --25
 
@@ -235,14 +234,14 @@
         Z => ALU32_zero-SALT_Zero;  --41
 
     ControlALU: ControlALU port map(
-        funcio : BR_5_0-ControlAlu_funcio;  --12
+        funcio : IR_Q-BR(5 downto 0);  --12
         ALUOp : UnitatControl_ALUOp-ControlALU_ALUOp;  --27
         Control_ALU : ControlALU_Control_ALU-ALU32_Control_ALU);  --28
 
     ALUOut: reg_32bits port map(
         clk => clk;
         Din=> ALU32_Resultat-ALUOut_Din;  --45
-        Dout=> ALUOut_Dout-memDada_Add); --29 però i els 8 bits???
+        Dout=> ALUOut_Dout-memDada_Add); --29,33 i 34
 
 
     Cond_salt: SALT port map(
@@ -254,8 +253,8 @@
         clock => clk
         MemRead => UnitatControl_MemRead-memDada_MemRead;  --30
         MemWrite => UnitatControl_MemWrite-memDada_MemWrite;  --31
-        Add => ALUOut_Dout-memDada_Add;  --29 i els 8 bits??
-        WD => BR_DadaL2-memDada_WD;  --22
+        Add =>ALUOut_Dout-memDada_Add(7 downto 0);  --29, 33 i 34
+        WD => 1Mux2x1_O-ALU32_Op1;  --21
         RD => memDada_RD-MDR_Din;  --32
 
     
@@ -268,20 +267,36 @@
     mux4: mux2x1_32bits port map(
         sel => UnitatControl_MemtoReg-4Mux2x1_sel;  --35
         A => MDR_Dout-4Mux2x1_A;  --44
-        B => ALUOut_Dout-4Mux2x1_B;  --34
+        B => ALUOut_Dout-memDada_Add;  --33,34 i 29
         O => 4Mux2x1_O-BR_DadaE);  --13
 
     mux3: mux2x1_32bits port map(
         sel => SALT_Sel-3Mux2x1_Sel;  --43
-        A => NPC_Dout-3Mux2x1_A;  --37
-        B => ALUOut_Dout-3Mux2x1_B;  --33
+        A => NPC_Dout-1Mux2x1_A;  --36 i 37
+        B => ALUOut_Dout-memDada_Add;  --29 i 33
         O => 3Mux2x1_O-PC_PCin);  --1
 
     sum4: sum4 port map(
-        Entrada => PC_PCout-sum4_Entrada; --3
+        Entrada =>  PC_PCout-memInst_Add; --2 i 3
         Sortida => sum4_Sortida-NPC_Din);  --46
-
+    
     NPC: reg_32bits port map(
         clk => clk;
         Din=> sum4_Sortida-NPC_Din;  --46
-        Dout=> NPC_Dout-1Mux2x1_A); --36
+        Dout=> NPC_Dout-1Mux2x1_A); --36 i 37
+
+    UnitatControl: UnitatControl port map(
+        Reset => reset;
+        clk => clk;
+        CO => IR_Q-BR(31 downto 26);
+        RegDst => UnitatControl_RegDst-0Mux2x1_sel;  --18
+        PCWrite => UnitatControl_PCwrite-PC_Esc;  --15
+        MemtoReg => UnitatControl_MemtoReg-4Mux2x1_sel;  --35
+        MemRead =>UnitatControl_MemRead-memDada_MemRead;  --30
+        MemWrite =>UnitatControl_MemWrite-memDada_MemWrite;  --31
+        PCWriteCond =>UnitatControl_PCWriteCond-SALT_PCWriteCond;  --42
+        ALUOp =>UnitatControl_ALUOp-ControlALU_ALUOp;  --27
+        RegWrite =>UnitatControl_RegWrite-BR_EscReg;  --17
+        IRWrite =>UnitatControl_IRWrite-IR_Escr;  --16
+        ALUSrcA =>UnitatControl_AluSrcA-1Mux2x1_sel;  --24
+        ALUSrcB =>UnitatControl_AluSrcB-2Mux2x1_sel);  --23
