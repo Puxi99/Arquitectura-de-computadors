@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  
+=======
+      
+>>>>>>> a2186e2e7d3aed88ec6c6ecc1ace63535c2667c7
     library IEEE;
     use IEEE.std_logic_1164.all;
     use ieee.std_logic_arith.all
