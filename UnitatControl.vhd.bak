@@ -123,7 +123,7 @@ signal Estat: Tipus_Estats;
                 RegWrite <= '0'; 
                 RegDst <= '0'; 
                 MemtoReg <= '0'; 
-                ALUSrcB <= '1'; 
+                ALUSrcB <= '0'; 
                 ALUSrcA <= '1'; 
                 ALUOp  <= "00"; 
             

@@ -16,10 +16,10 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "05/04/2020 19:32:35"
+-- DATE "05/05/2020 11:51:11"
 
 -- 
--- Device: Altera EP4CE6F17C6 Package FBGA256
+-- Device: Altera EP4CE22F17C6 Package FBGA256
 -- 
 
 -- 
@@ -82,8 +82,8 @@ ENTITY 	CPU IS
 END CPU;
 
 -- Design Ports Information
--- clk	=>  Location: PIN_D15,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- reset	=>  Location: PIN_M8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- clk	=>  Location: PIN_L13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- reset	=>  Location: PIN_B11,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF CPU IS
@@ -121,7 +121,7 @@ PORT MAP (
 	devclrn => ww_devclrn,
 	devpor => ww_devpor);
 
--- Location: IOIBUF_X34_Y19_N1
+-- Location: IOIBUF_X53_Y10_N15
 \clk~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -132,7 +132,7 @@ PORT MAP (
 	i => ww_clk,
 	o => \clk~input_o\);
 
--- Location: IOIBUF_X13_Y0_N1
+-- Location: IOIBUF_X40_Y34_N8
 \reset~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
