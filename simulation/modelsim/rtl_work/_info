@@ -23,9 +23,9 @@ V^07oncN1>:4Q0Kb42UCj60
 !s100 ;Ham<V_6W6bz_zWTDC?6`0
 Z8 OV;C;10.5b;63
 31
-Z9 !s110 1588672338
+Z9 !s110 1588748833
 !i10b 1
-Z10 !s108 1588672338.000000
+Z10 !s108 1588748833.000000
 Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd|
 Z12 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd|
 !i113 1
@@ -65,11 +65,11 @@ VAC6QhcBJoSDcbgETZI4=D2
 !s100 <L>UIoo3K9nmC2O];MJ:?3
 R8
 31
-Z19 !s110 1588672337
+R9
 !i10b 1
-Z20 !s108 1588672337.000000
-Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
-Z22 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
+Z20 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd|
 !i113 1
 R13
 R14
@@ -84,32 +84,32 @@ VbSHOKD3k``JB`2<KEih`Q0
 !s100 e48l^Zl[kQH8JBc>oE4T?2
 R8
 31
-R19
+R9
 !i10b 1
+R10
+R19
 R20
-R21
-R22
 !i113 1
 R13
 R14
 Econtrolalu
-Z23 w1585328048
+Z21 w1585328048
 R2
 R3
 R4
 R5
 R0
-Z24 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
-Z25 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
+Z22 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
+Z23 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd
 l0
 L6
 VQ>Ab7BM4^eNO7QAMd8Bom2
 !s100 C1]k?OVk@BOeoVPdb4bDn3
 R8
 31
-R19
+Z24 !s110 1588748832
 !i10b 1
-R20
+Z25 !s108 1588748832.000000
 Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd|
 Z27 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd|
 !i113 1
@@ -127,9 +127,9 @@ V`oBF1Q]0c`Kk?z1TMoHC:2
 !s100 AdkzK3bP@D4Na8:4iK<BQ0
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 R26
 R27
 !i113 1
@@ -149,9 +149,9 @@ VS8>miRNZdI?V1m4hM6kji1
 !s100 DBMHT5`B=^V@<FQa`]e6A0
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd|
 Z32 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd|
 !i113 1
@@ -168,9 +168,9 @@ V;JMhAfn0lePJ`KoadlC0B2
 !s100 FaWQ`Io9>Dl86GieS6lZ@1
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 R31
 R32
 !i113 1
@@ -228,9 +228,9 @@ VM`GbmM_d:A[GM]@aN8M4<0
 !s100 nbnACFd=^QLDiZo5VimTl1
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd|
 Z42 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd|
 !i113 1
@@ -246,9 +246,9 @@ VQ[GFK8]eZb]KbO7lCb]H43
 !s100 JhBLS;KizGNB_LiTZPkVZ3
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 R41
 R42
 !i113 1
@@ -267,9 +267,9 @@ V`[S0dQ547;Ph:9^Nz3=MG3
 !s100 `C:>Ma[XI;`_5C[h9jQUZ2
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd|
 Z47 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd|
 !i113 1
@@ -285,9 +285,9 @@ V9?kSd>LoaLfcaFP2=aA>Q2
 !s100 ?DH17mK?0G_][k50XdJ;X2
 R8
 31
-R19
+R24
 !i10b 1
-R20
+R25
 R46
 R47
 !i113 1
@@ -307,11 +307,11 @@ V8>g^@=oD1MlzH3PBZEQoH2
 !s100 li=golRzaCRACA2J1`Jhk2
 R8
 31
-Z51 !s110 1588672336
+R24
 !i10b 1
-Z52 !s108 1588672336.000000
-Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
-Z54 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
+R25
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
+Z52 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd|
 !i113 1
 R13
 R14
@@ -326,33 +326,33 @@ V4:LEK<@QF8<A2D4?aKUnA2
 !s100 4C0Im?:3SkSN;3>7WV23i2
 R8
 31
-R51
+R24
 !i10b 1
+R25
+R51
 R52
-R53
-R54
 !i113 1
 R13
 R14
 Ememinst
-R38
+Z53 w1588748762
 R16
 R4
 R5
 R0
-Z55 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
-Z56 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
+Z54 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
+Z55 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd
 l0
 L6
 V7KhAZk]7BoF=G4GL7W1C@3
 !s100 46CaL<;jM^zB0oO>U3=@l0
 R8
 31
-R51
+Z56 !s110 1588748831
 !i10b 1
-R52
-Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
-Z58 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
+Z57 !s108 1588748831.000000
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
+Z59 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd|
 !i113 1
 R13
 R14
@@ -361,17 +361,17 @@ R16
 R4
 R5
 DEx4 work 7 meminst 0 22 7KhAZk]7BoF=G4GL7W1C@3
-l83
+l86
 L12
-VbmDbF[7a9Hm:f`]EcleUf1
-!s100 AR[b<ICz6WNLk]f1ME?3o0
+VFBeb64M;kSe[=27aN]oRl2
+!s100 POQ@BV;[K^2CN9MSIFW3@2
 R8
 31
-R51
+R56
 !i10b 1
-R52
 R57
 R58
+R59
 !i113 1
 R13
 R14
@@ -380,19 +380,19 @@ R38
 R4
 R5
 R0
-Z59 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
-Z60 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
+Z60 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
+Z61 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd
 l0
 L4
 V?E67D4Ci7dch9;:eiZGlO1
 !s100 KF0Sda]mLEJ8YjTmePeJ[1
 R8
 31
-R51
+R56
 !i10b 1
-R52
-Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
-Z62 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
+R57
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
+Z63 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd|
 !i113 1
 R13
 R14
@@ -406,11 +406,11 @@ VIn8dzUlJ4K>XEfc2BWDhX2
 !s100 z9kcITz56GY=D`hj2`6GV0
 R8
 31
-R51
+R56
 !i10b 1
-R52
-R61
+R57
 R62
+R63
 !i113 1
 R13
 R14
@@ -419,19 +419,19 @@ R38
 R4
 R5
 R0
-Z63 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
-Z64 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
+Z64 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
+Z65 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd
 l0
 L4
 V34<GmBnXC2H2aGIDFS@a[3
 !s100 9Q4b`DDb9:_:?Vo>ahRge1
 R8
 31
-R51
+R56
 !i10b 1
-R52
-Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
-Z66 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
+R57
+Z66 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
+Z67 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd|
 !i113 1
 R13
 R14
@@ -445,32 +445,32 @@ VK`ZiEOTJ8?DoM3adX`>Pb0
 !s100 DC>=McafGO5Ra5_^`S5bE2
 R8
 31
-R51
+R56
 !i10b 1
-R52
-R65
+R57
 R66
+R67
 !i113 1
 R13
 R14
 Epc
-Z67 w1588427726
+Z68 w1588427726
 R4
 R5
 R0
-Z68 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
-Z69 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
+Z69 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
+Z70 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd
 l0
 L4
 VmBn2?OE]1RWcf<8VgE38;0
 !s100 01gPOPiK5PZ38A0]:RPja0
 R8
 31
-R51
+R56
 !i10b 1
-R52
-Z70 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
-Z71 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
+R57
+Z71 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
+Z72 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd|
 !i113 1
 R13
 R14
@@ -484,39 +484,39 @@ VX<L7Q9N9dMHGe8L02jKDP1
 !s100 G98]g;iKT6f`eg1idkV`m2
 R8
 31
-R51
+R56
 !i10b 1
-R52
-R70
+R57
 R71
+R72
 !i113 1
 R13
 R14
 Ereg_32bits
 R38
-Z72 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z73 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R3
 R4
 R5
 R0
-Z73 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
-Z74 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
+Z74 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
+Z75 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd
 l0
 L6
 VTiG2117MoK<IOFbOA6[O;3
 !s100 >114oJlQV]gQ2f[caF07<1
 R8
 31
-R51
+R56
 !i10b 1
-R52
-Z75 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
-Z76 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
+R57
+Z76 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
+Z77 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R72
+R73
 R3
 R4
 R5
@@ -527,33 +527,33 @@ Vc70S]Y9OGUAVi5G0FNiE31
 !s100 0c<_O5Za<z5H;a:4QEFAD1
 R8
 31
-R51
+R56
 !i10b 1
-R52
-R75
+R57
 R76
+R77
 !i113 1
 R13
 R14
 Esalt
-Z77 w1588583817
+Z78 w1588583817
 R3
 R4
 R5
 R0
-Z78 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
-Z79 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
+Z79 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
+Z80 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd
 l0
 L7
 VHk;860<V0hBEX2b8mZ47f1
 !s100 `0S_]0iZhKkiaila=NanJ1
 R8
 31
-R19
+R24
 !i10b 1
-R20
-Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
-Z81 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
+R25
+Z81 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
+Z82 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd|
 !i113 1
 R13
 R14
@@ -568,40 +568,40 @@ Vm;h0lV]CAIc6jRjaA8IKE0
 !s100 UQHYW?^5GkGLGdfaK@BZ=1
 R8
 31
-R19
+R24
 !i10b 1
-R20
-R80
+R25
 R81
+R82
 !i113 1
 R13
 R14
 Esum4
 R38
 R3
-R72
+R73
 R4
 R5
 R0
-Z82 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
-Z83 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
+Z83 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
+Z84 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd
 l0
 L5
 V8lS6@`TSI<nEO[a<haV@d1
 !s100 S;`h]9m5[E<D_5YZOhNHj2
 R8
 31
-Z84 !s110 1588672335
+R56
 !i10b 1
-Z85 !s108 1588672335.000000
-Z86 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
-Z87 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
+R57
+Z85 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
+Z86 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R3
-R72
+R73
 R4
 R5
 DEx4 work 4 sum4 0 22 8lS6@`TSI<nEO[a<haV@d1
@@ -611,52 +611,54 @@ V;L914nZYWP;eOk71;4TL_2
 !s100 gf_]9<76aHW0^^ZD>bEWH1
 R8
 31
-R84
+R56
 !i10b 1
+R57
 R85
 R86
-R87
 !i113 1
 R13
 R14
 Eunitatcontrol
-Z88 w1588672186
-R16
+Z87 w1588747665
+R2
+R3
 R4
 R5
 R0
-Z89 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
-Z90 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
+Z88 8C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
+Z89 FC:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd
 l0
-L5
-V36mhDfefOgaWJY08FXC>c0
-!s100 7RQ6JSG0P:OdnBDVf566T3
+L6
+VELR;3mla6JgdIXWcg_E083
+!s100 RaOz7;Y__<RBR8M4Ul_c31
 R8
 31
-R84
+Z90 !s110 1588748830
 !i10b 1
-R85
-Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
-Z92 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
+Z91 !s108 1588748830.000000
+Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
+Z93 !s107 C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R16
+R2
+R3
 R4
 R5
-DEx4 work 13 unitatcontrol 0 22 36mhDfefOgaWJY08FXC>c0
+DEx4 work 13 unitatcontrol 0 22 ELR;3mla6JgdIXWcg_E083
 l27
-L23
-VGa4^QfGOVd3J]n56]SQ970
-!s100 mB6U3^MJg:5ZU93QHPC6U0
+L24
+VFOB6A8dFIG1bkX^adV<Ri3
+!s100 WYH1Ozno4?OAkElGN`^_e0
 R8
 31
-R84
+R90
 !i10b 1
-R85
 R91
 R92
+R93
 !i113 1
 R13
 R14

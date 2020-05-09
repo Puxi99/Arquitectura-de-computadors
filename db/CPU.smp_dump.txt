@@ -1,6 +1,6 @@
 
 State Machine - |CPU|UnitatControl:UnitatControl_1|Estat
-Name Estat.EError Estat.E12 Estat.E11 Estat.E10 Estat.E9 Estat.E8 Estat.E7 Estat.E6 Estat.E5 Estat.E4 Estat.E3 Estat.E2 Estat.E1 Estat.E0 
+Name Estat.Error Estat.E12 Estat.E11 Estat.E10 Estat.E9 Estat.E8 Estat.E7 Estat.E6 Estat.E5 Estat.E4 Estat.E3 Estat.E2 Estat.E1 Estat.E0 
 Estat.E0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 Estat.E1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
 Estat.E2 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
@@ -14,4 +14,4 @@ Estat.E9 0 0 0 0 1 0 0 0 0 0 0 0 0 1
 Estat.E10 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
 Estat.E11 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
 Estat.E12 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
-Estat.EError 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Estat.Error 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

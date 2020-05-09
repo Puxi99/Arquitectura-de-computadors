@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "05/05/2020 11:51:11"
+-- DATE "05/06/2020 09:48:31"
 
 -- 
 -- Device: Altera EP4CE22F17C6 Package FBGA256
