@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:24 on May 11,2020
+# Start time: 18:22:35 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/UnitatControl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,11 +21,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity UnitatControl
 # -- Compiling architecture Behavioral of UnitatControl
-# End time: 09:13:25 on May 11,2020, Elapsed time: 0:00:01
+# End time: 18:22:35 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:25 on May 11,2020
+# Start time: 18:22:35 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/sum4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,11 +34,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity sum4
 # -- Compiling architecture Behavioral of sum4
-# End time: 09:13:25 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:35 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:25 on May 11,2020
+# Start time: 18:22:36 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/reg_32Bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -47,44 +47,44 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity reg_32Bits
 # -- Compiling architecture Behavioral of reg_32Bits
-# End time: 09:13:25 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:36 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:26 on May 11,2020
+# Start time: 18:22:36 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC
 # -- Compiling architecture behavior of PC
-# End time: 09:13:26 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:36 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:26 on May 11,2020
+# Start time: 18:22:36 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_32bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux2x1_32bits
 # -- Compiling architecture atrib of mux2x1_32bits
-# End time: 09:13:26 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:37 on May 14,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:26 on May 11,2020
+# Start time: 18:22:37 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/mux2x1_5bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux2x1_5bits
 # -- Compiling architecture behavior of mux2x1_5bits
-# End time: 09:13:26 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:37 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:26 on May 11,2020
+# Start time: 18:22:37 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memInst.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -92,11 +92,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity memInst
 # -- Compiling architecture Behavioral of MemInst
-# End time: 09:13:26 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:37 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:27 on May 11,2020
+# Start time: 18:22:37 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/memDada.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -104,33 +104,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity memDada
 # -- Compiling architecture behavior of memDada
-# End time: 09:13:27 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:37 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:27 on May 11,2020
+# Start time: 18:22:37 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/IR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity IR
 # -- Compiling architecture behavior of IR
-# End time: 09:13:27 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:37 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:27 on May 11,2020
+# Start time: 18:22:37 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/extSig.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity extSig
 # -- Compiling architecture behavior of extSig
-# End time: 09:13:27 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:38 on May 14,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:27 on May 11,2020
+# Start time: 18:22:38 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -138,11 +138,11 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity CPU
 # -- Compiling architecture arch of CPU
-# End time: 09:13:27 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:38 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:27 on May 11,2020
+# Start time: 18:22:38 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ControlALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -151,11 +151,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity ControlALU
 # -- Compiling architecture arch of ControlALU
-# End time: 09:13:28 on May 11,2020, Elapsed time: 0:00:01
+# End time: 18:22:38 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:28 on May 11,2020
+# Start time: 18:22:38 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/Cond_salt.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -163,11 +163,11 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity SALT
 # -- Compiling architecture arch of SALT
-# End time: 09:13:28 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:38 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:28 on May 11,2020
+# Start time: 18:22:38 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/BancRegistres.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,11 +175,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity BancRegistres
 # -- Compiling architecture behavior of BancRegistres
-# End time: 09:13:28 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:39 on May 14,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:28 on May 11,2020
+# Start time: 18:22:39 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/ALU32.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -188,24 +188,24 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity ALU32
 # -- Compiling architecture arch of ALU32
-# End time: 09:13:28 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:39 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:13:28 on May 11,2020
+# Start time: 18:22:39 on May 14,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/Uni/Q4/Arq/PR4G/Arquitectura-de-computadors/simulation/modelsim/CPU_vhd_tst.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity CPU_vhd_tst
 # -- Compiling architecture CPU_arch of CPU_vhd_tst
-# End time: 09:13:28 on May 11,2020, Elapsed time: 0:00:00
+# End time: 18:22:39 on May 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"   CPU_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" CPU_vhd_tst 
-# Start time: 09:13:30 on May 11,2020
+# Start time: 18:22:40 on May 14,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -231,6 +231,11 @@
 # Loading work.unitatcontrol(behavioral)
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: DESKTOP-5APRODG  ProcessID: 19280
+#           Attempting to use alternate WLF file "./wlftg4et0x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg4et0x
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -285,12 +290,12 @@
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
 add wave -position end  sim:/cpu_vhd_tst/i1/PC_1/PCout
+add wave -position end  sim:/cpu_vhd_tst/i1/IR_1/Q
 add wave -position end  sim:/cpu_vhd_tst/i1/BancRegistres_1/dada(1)
 add wave -position end  sim:/cpu_vhd_tst/i1/BancRegistres_1/dada(2)
 add wave -position end  sim:/cpu_vhd_tst/i1/BancRegistres_1/dada(3)
 add wave -position end  sim:/cpu_vhd_tst/i1/BancRegistres_1/dada(4)
 add wave -position end  sim:/cpu_vhd_tst/i1/BancRegistres_1/dada(5)
-add wave -position 3  sim:/cpu_vhd_tst/i1/ALUOut_1/Dout
 add wave -position end  sim:/cpu_vhd_tst/i1/memDada_1/bank(83)
 add wave -position end  sim:/cpu_vhd_tst/i1/memDada_1/bank(87)
 add wave -position end  sim:/cpu_vhd_tst/i1/memDada_1/bank(91)
@@ -345,105 +350,5 @@ run
 #    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-add wave -position 2 sim:/cpu_vhd_tst/i1/UnitatControl_1/*
-restart
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/sum4_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/memDada_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/memInst_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 3  Instance: /cpu_vhd_tst/i1/memDada_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-add wave -position 4  sim:/cpu_vhd_tst/i1/IR_1/Q
-restart
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/sum4_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/memDada_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_tst/i1/memInst_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /cpu_vhd_tst/i1/ALU32_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ns  Iteration: 3  Instance: /cpu_vhd_tst/i1/memDada_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ns  Iteration: 1  Instance: /cpu_vhd_tst/i1/BancRegistres_1
+# End time: 18:28:22 on May 14,2020, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 50

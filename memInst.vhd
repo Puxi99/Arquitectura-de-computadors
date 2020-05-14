@@ -13,7 +13,7 @@ architecture Behavioral of MemInst is
 
 type ARRAY_64 is ARRAY (0 to 63) of STD_LOGIC_VECTOR(31 downto 0);
 signal Programa: ARRAY_64 :=	(	
-
+		
 		x"00002820", -- 0
 		x"8C020050", -- 1
 		x"8C010054", -- 2

@@ -40,15 +40,14 @@ type byte_array is array (natural range <>) of std_logic_vector(7 downto 0);
 		x"00", x"00", x"00", x"96", -- Adreça 54h
 		x"00", x"00", x"00", x"00", -- Adreça 58h
 		x"00", x"00", x"00", x"00", -- Adreça 5Ch
-		X"00", x"00", x"00", x"01", -- Adreça 60h
-		x"00", x"00", x"00", x"34", -- Adreça 64h
-		x"00", x"00", x"00", x"67", -- Adreça 68h
-		x"00", x"00", x"10", x"00", -- Adreça 6Ch
-		X"00", x"10", x"00", x"00", -- Adreça 70h
-		x"10", x"00", x"00", x"00", -- Adreça 74h
-		x"00", x"00", x"0F", x"69", -- Adreça 78h
-		x"00", x"00", x"11", x"00", -- Adreça 7Ch
-		X"00", x"00", x"00", x"96", -- Adreça 80h
+		X"00", x"00", x"00", x"34", -- Adreça 60h
+		x"00", x"00", x"00", x"67", -- Adreça 64h
+		x"00", x"00", x"10", x"00", -- Adreça 68h
+		X"00", x"10", x"00", x"00", -- Adreça 6Ch
+		x"10", x"00", x"00", x"00", -- Adreça 70h
+		x"00", x"00", x"0F", x"69", -- Adreça 74h
+		x"00", x"00", x"11", x"00", -- Adreça 78h
+		X"00", x"00", x"00", x"96", -- Adreça 7Ch
 		x"00", x"00", x"00", x"00", -- Adreça 84h
 		x"00", x"00", x"00", x"00", -- Adreça 88h
 		x"00", x"00", x"00", x"00", -- Adreça 8Ch
@@ -78,7 +77,8 @@ type byte_array is array (natural range <>) of std_logic_vector(7 downto 0);
 		x"00", x"00", x"00", x"00", -- Adreça ECh
 		X"00", x"00", x"00", x"00", -- Adreça F0h
 		x"00", x"00", x"00", x"00", -- Adreça F4h
-		x"00", x"00", x"00", x"00", -- Adreça F8h
+		x"00", x"00", x"00", x"00",
+		x"00", x"00", x"00", x"00",	-- Adreça F8h
 		x"00", x"00", x"00", x"00");-- Adreça FCh
 
 signal addr: integer := -1;
